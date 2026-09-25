@@ -2,3 +2,12 @@
 .Rhistory
 .RData
 .Ruserdata
+.RDataTmp*
+
+# Data files: large, and kept on Surfdrive (the .rds are over GitHub's 100 MB limit)
+Data/*.rds
+Data/GSM*/
+
+# Office lock files and stray plot output
+~$*
+SeuratObject.pdf
